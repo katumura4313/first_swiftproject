@@ -12,16 +12,34 @@ class TableViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     let numbers = [1, 2, 3, 4, 5, 10, 15]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        for num in numbers {
-          // ステートメント
-            print(num)
-        }
+        
+        
+        //doForLoop()
+        print10()
+    
 
     }
     
-
+    
+    func doForLoop() {
+        //　ここに処理を書く
+        for num in numbers {
+          // ステートメント
+            print(num)
+            
+        }
+    }
+    
+    func print10() {
+        for num in numbers {
+            if num == 10 {
+                print(num)
+            }
+        }
+    }
+  
 
 }
+

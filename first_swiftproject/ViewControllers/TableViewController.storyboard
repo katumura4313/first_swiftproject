@@ -10,7 +10,7 @@
         <!--Table View Controller-->
         <scene sceneID="Kjz-Wi-92g">
             <objects>
-                <viewController id="xOC-cB-yOq" customClass="TableViewController" customModule="first_swiftproject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TableViewController" id="xOC-cB-yOq" customClass="TableViewController" customModule="first_swiftproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PHo-RR-5jX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
