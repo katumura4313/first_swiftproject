@@ -10,8 +10,15 @@ import UIKit
 
 class TableViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    let numbers = [1, 2, 3, 4, 5, 10, 15]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        for num in numbers {
+          // ステートメント
+            print(num)
+        }
 
     }
     
