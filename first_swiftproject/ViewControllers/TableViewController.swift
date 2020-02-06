@@ -7,39 +7,22 @@
 //
 
 import UIKit
-
+//時計をclassとした場合、classとは、時計を作る際の設計図の事。
+//インスタンスとは、時計を作るときの部品の事。
+//関数とは、時計をどうやって動かすか、組みててるのかを決める機能のこと。
 class TableViewController: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
-    let numbers = [1, 2, 3, 4, 5, 10, 15]
+    
+    var fruits = ["りんご", "オレンジ", "メロン", "バナナ", "パイナップル"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        //doForLoop()
-        print10()
-    
 
     }
     
-    
-    func doForLoop() {
-        //　ここに処理を書く
-        for num in numbers {
-          // ステートメント
-            print(num)
-            
-        }
+    override func viewWillAppear(_ animated: Bool) {
     }
-    
-    func print10() {
-        for num in numbers {
-            if num == 10 {
-                print(num)
-            }
-        }
-    }
-  
 
 }
 
